@@ -1,0 +1,3 @@
+# Mad_Stats
+Bojan Cuckic Capstone Project
+Avery, Zach, Kendrick, Patrick....
