@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #232427;
+    background-image:url(chiefs_mahomes.webp);
 }
 
 nav{
@@ -59,6 +59,7 @@ nav{
    overflow: hidden;
    border-radius: 15px;
    transition: 1s;
+   background-image: url(kclogo.jpg);
 
 }
 
@@ -66,14 +67,14 @@ nav{
     position: relative;
     width: calc(300px - 30px);
     height: calc(300px - 30px);
-    background: #000;
+    
     float: left;
     margin: 15px;
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 15px;
-    
     transition: 1s;
+    background-image: url(kclogo.jpg);
 
  }
 
@@ -87,8 +88,8 @@ nav{
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 15px;
-    
     transition: 1s;
+    background-image: url(kclogo.jpg);
  }
 
  .season2020box:hover{
@@ -110,7 +111,8 @@ nav{
     align-items: center;
     justify-content: center;
     bottom: 50%;
-    color: coral;
+    color:white;
+
 
  }
 
@@ -120,7 +122,7 @@ nav{
     align-items: center;
     justify-content: center;
     bottom: 50%;
-    color: coral;
+    color: white;
  }
 
  .season2018box a{
@@ -129,5 +131,6 @@ nav{
     align-items: center;
     justify-content: center;
     bottom: 50%;
-    color: coral;
+    color:white;
+    
  }

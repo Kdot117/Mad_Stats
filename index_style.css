@@ -49,8 +49,8 @@ nav{
 
 .container .box1{
    position: relative;
-   width: calc(300px - 30px);
-   height: calc(300px - 30px);
+   width: calc(400px - 30px);
+   height: calc(400px - 30px);
    background: #000;
    float: left;
    margin: 15px;
@@ -60,13 +60,14 @@ nav{
    background-image: url(kclogo.jpg);
    background-size: cover;
    transition: 1s;
+   display:block;
 
 }
 
 .container .box2{
     position: relative;
-    width: calc(300px - 30px);
-    height: calc(300px - 30px);
+    width: calc(400px - 30px);
+    height: calc(400px - 30px);
     background: #000;
     float: left;
     margin: 15px;
@@ -75,14 +76,15 @@ nav{
     border-radius: 15px;
     background-image: url(nygiantlogo.jpg);
     background-size: cover;
-    transition: 1s;
+    transition: 0.5s;
+    display:block;
 
  }
 
  .container .box3{
     position: relative;
-    width: calc(300px - 30px);
-    height: calc(300px - 30px);
+    width: calc(400px - 30px);
+    height: calc(400px - 30px);
     background: #000;
     float: left;
     margin: 15px;
@@ -92,6 +94,7 @@ nav{
     background-image: url(seahawks.jpg);
     background-size: cover;
     transition: 1s;
+    display:block;
  }
 
  .box1:hover{

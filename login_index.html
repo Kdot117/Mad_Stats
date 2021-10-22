@@ -3,19 +3,22 @@
 <head>
     <title>Mad_Stat</title>
     <link rel ="stylesheet" type="text/css" href="login_style.css"/>
+    <script src="login_validation.js"></script>
 
 <body>
     <div class = "loginbox">
-        <h1>Login to Mad_Stat here :) </h1>
-        <form>
+        <h1>Login to Mad_Stat here! </h1>
+
+        <form class="box" action="index.html" method="POST" onsubmit="return validate()">
             <p>username</p>
-            <input type="text" name="" placeholder="Enter username">
+            <input type="text" name="" placeholder="Enter username" id="username">
             <p>password</p>
-            <input type="password" name="" placeholder="Enter password">
-            <input type="submit" name="" value="Login"><br>
+            <input type="password" name="" placeholder="Enter password" id="password">
+            <input type="submit" name="" value="Login" onclick="validate()"><br>
             <a href="#">Forgot Password?</a><br>
             <a href="#">Sign Up</a>
         </form>
+
     </div>
 </body>
 </head>
