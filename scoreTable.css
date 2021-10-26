@@ -1,7 +1,7 @@
 {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
 body{
@@ -44,24 +44,38 @@ nav{
     max-height: 300px;
     max-width: 800px;
     position: relative;
-        }
+}
 
 .sidebox {
-        background-color: plum;
-        width:300px;
-        height: 600px;
-        align-items: center;
-        justify-content: left;
-        bottom: 50%;
-        color: coral;
-        list-style-type: none;
-    
-        
+    background-color: plum;
+    width:300px;
+    height: 600px;
+    align-items: center;
+    justify-content: left;
+    bottom: 50%;
+    color: coral;
+    list-style-type: none;
+
+
 }
 
 .sidebox li{
 
     padding: 70px;
 }
+.postseason{
+    position: relative;
+    left: 400px;
+    bottom: 500px;
+    color: white;
+}
+.pageHeading{
+    position: relative;
+    left: 700px;
+    bottom: 600px;
+    color: white;
+}
+.pageHeading, h1{
+    position: center;
+}
 
-    
