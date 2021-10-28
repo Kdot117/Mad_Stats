@@ -55,6 +55,7 @@ nav{
         bottom: 50%;
         color: coral;
         list-style-type: none;
+        border-radius: 15px;
     
         
 }
