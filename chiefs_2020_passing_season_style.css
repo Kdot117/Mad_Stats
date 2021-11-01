@@ -1,7 +1,7 @@
 {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
 body{
@@ -44,10 +44,10 @@ nav{
     max-height: 300px;
     max-width: 800px;
     position: relative;
-        }
+    }
 
 .sidebox {
-        background-color: plum;
+        background-color: #5d4954;
         width:300px;
         height: 600px;
         align-items: center;
@@ -56,13 +56,45 @@ nav{
         color: coral;
         list-style-type: none;
         border-radius: 15px;
+        border-style:double
     
         
+}
+.sidebox a{
+    color: white;
+
 }
 
 .sidebox li{
 
     padding: 70px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0px 0px 100px;
+}
+table th {
+    text-align: left;
+    background-color: #3a6070;
+    color: #FFF
+    padding: 4px 30px 4px 8px;
+}
+
+table td {
+    border: 1px solid grey;
+    padding: 4px 8px;
+}
+
+table tr:nth-child(odd) td{
+    background-color: grey;
+}
+
+.passingTable{
+    position: relative;
+    left:320px;
+    bottom: 600px;
+    color: white;
 }
 
     
