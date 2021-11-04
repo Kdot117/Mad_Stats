@@ -1,8 +1,10 @@
+/* 
 {
     margin: 0px;
     padding: 0px;
 
 }
+*/
 
 body{
     background: #232427;
@@ -93,7 +95,7 @@ table{
 table th {
     text-align: left;
     background-color: #3a6070;
-    color: #FFF
+    color: #FFF;
     padding: 4px 30px 4px 8px;
 }
 

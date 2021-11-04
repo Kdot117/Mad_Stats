@@ -1,9 +1,10 @@
-
+/* 
 {
     margin: 0px;
     padding: 0px;
-    
+
 }
+*/
 
 body{
     background-image:url(chiefs_mahomes.webp);
@@ -44,7 +45,7 @@ nav{
 .container{
    position: relative; 
    width: 1400;
-   height: 300px
+   height: 300px;
    margin: 240px auto;
 }
 
