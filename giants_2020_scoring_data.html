@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="giants_2020_scoring_data_style.css">
+    <title>Navigation</title>
+    <script src=https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js></script>
+    <script src=<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.min.js"></script>
+</head>
+<body>
+<nav>
+    <div class="logo">
+        <h4>Mad_Stats</h4>
+    </div>
+
+    <ul class="nav-links">
+        <li>
+            <a href="login_index.html">Login</a>
+        </li>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="index.html">NFL Seasons</a>
+        </li>
+        <li>
+            <a href="#">Saved Stats</a>
+        </li>
+        </li>
+    </ul>
+</nav>
+
+</div>
+
+<div class="sidebox">
+    <li>
+        <a href="giants_2020_passing_season.html">Passing Data</a>
+    </li>
+
+    <li>
+        <a href="giants_2020_rushing_season.html">Rushing Data</a>
+    </li>
+    <li>
+        <a href="giants_2020_scoring_data.html">Scoring Data</a>
+    </li>
+    <li>
+        <a href="#">Weather Data</a>
+    </li>
+</div>
+
+<section class="regularSeason">
+ <h2>Regular Season</h2>
+ <table class="contentTable" width="600" align="left" >
+
+    <tr>
+        <th>WEEK</th>
+        <th>DATE</th>
+        <th>OPPONENT</th>
+        <th>RESULT</TH>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Sep 14, 2020</td>
+        <td>Pittsburgh Steelers</td>
+        <td>16 - 26 (LOSS)</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Sep 20, 2020</td>
+        <td>Chicago Bears</td>
+        <td>13 - 17 (LOSS)</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Sep 27, 2020</td>
+        <td>San Francisco 49ers</td>
+        <td>9 - 36 (LOSS)</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>Oct 4, 2020</td>
+        <td>Los Angeles Rams</td>
+        <td>9 - 17 (LOSS)</td>
+     </tr>
+
+     <tr>
+        <td>5</td>
+        <td>Oct 11, 2020</td>
+        <td>Dallas Cowboys</td>
+        <td>34 - 37 (LOSS)</td>
+     </tr>
+
+     <tr>
+        <td>6</td>
+        <td>Oct 18, 2020</td>
+        <td>Washington Football Team</td>
+        <td>20 - 19 (WIN)</td>
+     </tr>
+
+     <tr>
+        <td>7</td>
+        <td>Oct 22, 2020</td>
+        <td>Philadelphia Eagles</td>
+        <td>21 - 22 (LOSS)</td>
+     </tr>
+
+     <tr>
+        <td>8</td>
+        <td>Nov 2, 2020</td>
+        <td>Tampa Bay Buccaneers</td>
+        <td>23 - 25 (LOSS)</td>
+     </tr>
+
+     <tr>
+        <td>9</td>
+        <td>Nov 8, 2020</td>
+        <td>Washington Football Team</td>
+        <td>23 - 20 (WIN)</td>
+     </tr>
+
+     <tr>
+        <td>10</td>
+        <td>Nov 15, 2020</td>
+        <td>Philadelphia Eagles</td>
+        <td>27 - 17 (WIN)</td>
+     </tr>
+
+     <tr>
+        <td>11</td>
+        <td>BYE WEEK</td>
+        <td>BYE WEEK</td>
+        <td>BYE WEEK</td>
+     </tr>
+
+     <tr>
+        <td>12</td>
+        <td>Nov 29, 2020</td>
+        <td>Cincinnati Bengals</td>
+        <td>19 - 17 (WIN)</td>
+     </tr>
+
+     <tr>
+        <td>13</td>
+        <td>Dec 6, 2020</td>
+        <td>Seattle Seahawks</td>
+        <td>17 - 12 (WIN)</td>
+     </tr>
+
+     <tr>
+        <td>14</td>
+        <td>Dec 13, 2020</td>
+        <td>Arizona Cardinals</td>
+        <td>7 - 26 (LOSS)</td>
+     </tr>
+
+     <tr>
+        <td>15</td>
+        <td>Dec 20, 2020</td>
+        <td>Cleveland Browns</td>
+        <td>6 - 20 (LOSS)</td>
+     </tr>
+
+     <tr>
+        <td>16</td>
+        <td>Dec 27, 2020</td>
+        <td>Baltimore Ravens</td>
+        <td>13 - 27 (LOSS)</td>
+     </tr>
+
+     <tr>
+        <td>17</td>
+        <td>Jan 3, 2021</td>
+        <td>Dallas Cowboys</td>
+        <td>23 - 19 (WIN)</td>
+     </tr>
+</table>
+</section>
+
+<div class = "scoringChart">
+    <div class="box1"></div>
+
+    <style type="text/css">
+        .chartBox{
+            width: 390px;
+            height: 700px;
+            position: absolute;
+            left: 892px;
+            bottom: 420px;
+        }
+
+        </style>
+       
+           <div class="chartBox">
+               <canvas id="lineChart" width="100" height="100"></canvas>
+               <script src = "giants_2020_scoring_lineChart.js"></script>
+           </div>
+       </script>
+
+    
+</div>
+</body>
+</html>
