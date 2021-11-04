@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chiefs_2020_rushing_season_style.css">
+    <title>Navigation</title>
+    <script src=https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js></script>
+    <script src=<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Mad_Stats</h4>
+         </div>
+
+         <ul class="nav-links">
+                 <li>
+                    <a href="login_index.html">Login</a>
+                 </li>
+                 <li>
+                    <a href="index.html">Home</a>
+                 </li>
+                 <li>
+                    <a href="#">My Teams</a>
+                 </li>
+                 <li>
+                    <a href="#">Saved Stats</a>
+                 </li>
+            </li>
+        </ul>
+    </nav>
+
+ </div>
+
+ <div class="sidebox">
+    <li>
+        <a href="chiefs_2020_passing_season.html">Passing Data</a>
+     </li>
+     
+     <li>
+        <a href="chiefs_2020_rushing_season.html">Rushing Data</a>
+     </li>
+     <li>
+        <a href ="chiefs_2020_scoring_data.html">Scoring Data</a>
+     </li>
+     <li>
+        <a href="#">Weather Data</a>
+     </li>  
+ </div>  
+
+ <section class="rushingTable">
+
+    <table class="contentTable" width="600" align="center" >
+        
+       <tr>
+           <th>Rank</th>
+           <th>Team</th>
+           <th>Rush Attempts</th>
+           <th>Yards</TH>
+       </tr>
+   
+       <tr>
+            <td>1</td>
+            <td>Baltimore Ravens</td>
+            <td>555</td>
+            <td>3071</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Tennessee Titans</td>
+            <td>521</td>
+            <td>2690</td>
+        </tr>
+       
+        <tr>
+            <td>3</td>
+            <td>Cleveland Browns</td>
+            <td>495</td>
+            <td>2374</td>
+        </tr>
+       
+        <tr>
+            <td>4</td>
+            <td>New England Patriots</td>
+            <td>502</td>
+            <td>2364</td>
+        </tr>
+       
+        <tr>
+            <td>5</td>
+            <td>Minnesota Vikings</td>
+            <td>468</td>
+            <td>2283</td>
+        </tr>
+       
+        <tr>
+            <td>6</td>
+            <td>New Orleans Saints</td>
+            <td>494</td>
+            <td>2265</td>
+        </tr>
+       
+        <tr>
+            <td>7</td>
+            <td>Arizona Cardinals</td>
+            <td>479</td>
+            <td>2237</td>
+        </tr>
+       
+        <tr>
+            <td>8</td>
+            <td>Green Bay Packers</td>
+            <td>443</td>
+            <td>2118</td>
+        </tr>
+       
+        <tr>
+            <td>9</td>
+            <td>Philadelphia Eagles</td>
+            <td>403</td>
+            <td>2027</td>
+        </tr>
+       
+        <tr>
+            <td>10</td>
+            <td>Los Angeles Rams</td>
+            <td>473</td>
+            <td>2018</td>
+        </tr>
+       
+        <tr>
+            <td>11</td>
+            <td>Indianapolis Colts</td>
+            <td>459</td>
+            <td>1996</td>
+        </tr>
+       
+        <tr>
+            <td>12</td>
+            <td>Seattle Seahawks</td>
+            <td>411</td>
+            <td>1971</td>
+        </tr>
+       
+        <tr>
+            <td>13</td>
+            <td>Denver Broncos</td>
+            <td>442</td>
+            <td>1918</td>
+        </tr>
+       
+        <tr>
+            <td>14</td>
+            <td>Las Vegas Raiders</td>
+            <td>457</td>
+            <td>1916</td>
+        </tr>
+       
+        <tr>
+            <td>15</td>
+            <td>San Francisco 49ers</td>
+            <td>437</td>
+            <td>1889</td>
+        </tr>
+       
+        <tr>
+            <td>16</td>
+            <td>Kansas City Chiefs</td>
+            <td>403</td>
+            <td>1799</td>
+        </tr>
+       
+        <tr>
+            <td>17</td>
+            <td>Dallas Cowboys</td>
+            <td>430</td>
+            <td>1788</td>
+        </tr>
+       
+
+        <tr>
+            <td>18</td>
+            <td>Los Angeles Chargers</td>
+            <td>466</td>
+            <td>1784</td>
+        </tr>
+       
+       <tr>
+           <td>19</td>
+           <td>New York Giants</td>
+           <td>399</td>
+           <td>1768</td>
+       </tr>
+   
+       <tr>
+           <td>20</td>
+           <td>Buffalo Bills</td>
+           <td>411</td>
+           <td>1723</td>
+       </tr>
+   
+   </table>
+   </section>
+
+
+ <style type="text/css">
+ .chartBox{
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     left: 80%;
+     top: 25%;
+ }
+ 
+ </style>
+
+    <div class="chartBox">
+        <canvas id="chart" width="400" height="400"></canvas>
+    </div>
+
+<script>
+    // setup block
+    const data = {
+        labels: ['Clyde Edwards-Helaire', "Le'Veon Bell", 'Patrick Mahomes', 'Darrel Williams', 'Tyreek Hill'],
+        datasets: [{
+            label: 'Chiefs 2020 Rushing Yard Leaders',
+            data: [803, 254, 308, 169, 123],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    };
+
+    // configuration block
+    const config = {
+    type: 'pie',
+    data,
+    options: {}
+    };
+
+    // render block
+const chart = new Chart(
+    document.getElementById('chart'),
+    config 
+);
+
+</script>
+
+  
+</body>
+</html>
