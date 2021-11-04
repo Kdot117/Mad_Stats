@@ -91,7 +91,7 @@ table tr:nth-child(odd) td{
     background-color: grey;
 }
 
-.passingTable{
+.rushingTable{
     position: relative;
     left:320px;
     bottom: 600px;
