@@ -109,8 +109,8 @@ table tr:nth-child(odd) td{
 .box1 {
     display: flex;
     background-color: whitesmoke;
-    width: 370px;
-    height: 500px;
+    width: 400px;
+    height: 478px;
     margin: 10px;
     position: relative;
     left: 285px;

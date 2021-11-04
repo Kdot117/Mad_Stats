@@ -48,7 +48,7 @@ nav{
 
 .sidebox {
         background-color: #5d4954;
-        width:300px;
+        width:229px;
         height: 600px;
         align-items: center;
         justify-content: left;
@@ -62,6 +62,9 @@ nav{
 }
 .sidebox a{
     color: white;
+    
+    
+
 
 }
 
@@ -92,9 +95,33 @@ table tr:nth-child(odd) td{
 
 .passingTable{
     position: relative;
-    left:320px;
+    left:240px;
     bottom: 600px;
     color: white;
+    border-radius: 25px;
 }
 
+.box1 {
+    display: flex;
+    background-color: bisque;
+    width: 420px;
+    height: 400px;
+    margin: 10px;
+    position: relative;
+    left: 840px;
+    bottom: 1260px;
+    border-radius: 25px;
+}
+
+.box2 {
+    display: flex;
+    background-color: transparent;
+    width: 500px;
+    height: 600px;
+    margin: 10px;
+    position: relative;
+    left: 100px;
+    bottom: 1280px;
+    border-radius: 25px;
+}
     
