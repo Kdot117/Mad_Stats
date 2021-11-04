@@ -122,7 +122,7 @@
         <tr>
            <td>9</td>
            <td>Green Bay Packers</td>
-           <td>70.7s</td>
+           <td>70.7</td>
            <td>4106</td>
         </tr>
    
@@ -205,7 +205,29 @@
    </table>
    </section>
 
+   <div class = "scoringChart">
+      <div class="box1"></div>
+  
+      <style type="text/css">
+          .chartBox{
+              width: 400px;
+              height: 600px;
+              position: absolute;
+              left: 850px;
+              bottom: 320px;
+              display: flex;
+          }
+  
+          </style>
+             <div class="chartBox">
+                 <canvas id="multiPie" width="700" height="900"></canvas>
+                 <script src = "passing_lineChart.js"></script>
+             </div>
+         </script>      
+  </div>
 
+<<<<<<< HEAD
+=======
  <style type="text/css">
  .chartBox{
      width: 200px;
@@ -216,53 +238,34 @@
  }
  
  </style>
+>>>>>>> 7758690338b747b6f9107ab36cf07dd74d6d68f3
 
-    <div class="chartBox">
-        <canvas id="chart" width="400" height="400"></canvas>
-    </div>
 
-<script>
-    // setup block
-    const data = {
-        labels: ['Patrick Mahomes', 'Chad Henne', 'Travis Kelce', 'Tommy Townsend', 'Sammy Watkins'],
-        datasets: [{
-            label: 'Chiefs 2020 Passing Yard Leaders',
-            data: [4740, 248, 4, 13, 0],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    };
+  <div class = "pieChart">
+   
+      <div class= "box2"></div>
 
-    // configuration block
-    const config = {
-    type: 'pie',
-    data,
-    options: {}
-    };
+      <style type="text/css">
+   
+       .pieBox{
+             width: 400px;
+              height: 400px;
+              position: absolute;
+              right: 100px;
+              bottom: -400px;
+              background-color: white;
+              display: flex;
+              border-radius: 25px;
+          }
 
-    // render block
-const chart = new Chart(
-    document.getElementById('chart'),
-    config 
-);
+       </style>
+          <div class="pieBox">
+              <canvas id="pieChart" width="300" height="300"></canvas>
+              <script src ="passing_pieChart.js"></script>
+          </div>
+       </script>    
+   </div>
 
 </script>
-
-  
 </body>
 </html>
