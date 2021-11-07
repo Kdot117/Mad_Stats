@@ -1,9 +1,10 @@
-
+/* 
 {
     margin: 0px;
     padding: 0px;
-    
+
 }
+*/
 
 body{
     background-image:url(chiefs_mahomes.webp);
@@ -44,14 +45,14 @@ nav{
 .container{
    position: relative; 
    width: 1400;
-   height: 300px
+   height: 300px;
    margin: 240px auto;
 }
 
 .container .season2020box{
    position: relative;
-   width: calc(300px - 30px);
-   height: calc(300px - 30px);
+   width: calc(300px);
+   height: calc(300px);
    background: #000;
    float: left;
    margin: 15px;
@@ -59,14 +60,14 @@ nav{
    overflow: hidden;
    border-radius: 15px;
    transition: 1s;
-   background-image: url(kclogo.jpg);
+   background-image: url(cheifsmini.jpg);
 
 }
 
 .container .season2019box{
     position: relative;
-    width: calc(300px - 30px);
-    height: calc(300px - 30px);
+    width: calc(300px);
+    height: calc(300px);
     
     float: left;
     margin: 15px;
@@ -74,14 +75,14 @@ nav{
     overflow: hidden;
     border-radius: 15px;
     transition: 1s;
-    background-image: url(kclogo.jpg);
+    background-image: url(cheifsmini.jpg);
 
  }
 
  .container .season2018box{
     position: relative;
-    width: calc(300px - 30px);
-    height: calc(300px - 30px);
+    width: calc(300px);
+    height: calc(300px);
     background: #000;
     float: left;
     margin: 15px;
@@ -89,7 +90,7 @@ nav{
     overflow: hidden;
     border-radius: 15px;
     transition: 1s;
-    background-image: url(kclogo.jpg);
+    background-image: url(cheifsmini.jpg);
  }
 
  .season2020box:hover{
@@ -134,3 +135,7 @@ nav{
     color:white;
     
  }
+ 
+ span {
+   background-color: #000;
+}

@@ -1,0 +1,139 @@
+/* 
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+*/
+
+body{
+    background-image:url(seahawksbackground.jpg);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #5d4954;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo{
+    color: beige;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+
+}
+
+.nav-links a{
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container{
+   position: relative; 
+   width: 1400;
+   height: 300px;
+   margin: 240px auto;
+}
+
+.container .season2020box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: 1s;
+    background-image: url(seahawksmini.jpg);
+
+}
+
+.container .season2019box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: 1s;
+    background-image: url(seahawksmini.jpg);
+
+ }
+
+ .container .season2018box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: 1s;
+    background-image: url(seahawksmini.jpg);
+ }
+
+ .season2020box:hover{
+
+    transform:scale(1.2);
+ }
+ .season2019box:hover{
+
+    transform:scale(1.2);
+ }
+ .season2018box:hover{
+
+    transform:scale(1.2);
+ }
+
+ .season2020box a{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50%;
+    color: white;
+ }
+
+ .season2019box a{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50%;
+    color: white;
+ }
+
+ .season2018box a{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50%;
+    color:white;
+    
+ }
+
+ span {
+     background-color: #000;
+ }

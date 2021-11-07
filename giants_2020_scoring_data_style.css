@@ -1,0 +1,122 @@
+/* 
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+*/
+
+body{
+    background: #232427;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #5d4954;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo{
+    color: beige;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+
+}
+
+.nav-links a{
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.chartBox{
+    max-height: 300px;
+    max-width: 800px;
+    position: relative;
+}
+
+.sidebox {
+    background-color: #5d4954;
+    width:270px;
+    height: 600px;
+    align-items: center;
+    justify-content: left;
+    bottom: 50%;
+    color: coral;
+    list-style-type: none;
+    border-radius: 15px;
+    border-style: double;
+}
+
+.sidebox li{
+    padding: 70px;
+}
+.sidebox a {
+color: white;
+font-family: 'Lato', sans-serif;
+
+}
+.regularSeason{
+    position: relative;
+    left: 280px;
+    bottom: 600px;
+    color: white;
+}
+.pageHeading{
+    position: relative;
+    left: 700px;
+    bottom: 600px;
+    color: white;
+}
+.pageHeading h1{
+    position: left;
+}
+table{
+    border-collapse: collapse;
+    margin: 0px 0px 100px;
+}
+.postseson h2{
+    margin: 0px 0px 700px;
+    top: 0;
+}
+table th {
+    text-align: left;
+    background-color: #3a6070;
+    color: #FFF;
+    padding: 4px 30px 4px 8px;
+}
+
+table td {
+    border: 1px solid grey;
+    padding: 4px 8px;
+}
+
+table tr:nth-child(odd) td{
+    background-color: grey;
+}
+
+.box1 {
+    display: flex;
+    background-color: whitesmoke;
+    width: 390px;
+    height: 500px;
+    margin: 10px;
+    position: relative;
+    left: 285px;
+    bottom: 600px;
+    border-radius: 25px;
+
+}

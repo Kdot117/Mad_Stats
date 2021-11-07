@@ -1,8 +1,9 @@
-
+/*
 {
     margin: 0px;
     padding: 0px; 
 }
+*/
 
 body{
     background: #232427;
@@ -43,9 +44,10 @@ nav{
 .container{
    position: relative; 
    width: 1400;
-   height: 300px
-   margin: 240px auto;
+   height: 300px;
+   margin: 50px auto;
 }
+
 
 .container .box1{
    position: relative;
@@ -60,7 +62,7 @@ nav{
    background-image: url(kclogo.jpg);
    background-size: cover;
    transition: 1s;
-   display:block;
+   display: inside;
 
 }
 
