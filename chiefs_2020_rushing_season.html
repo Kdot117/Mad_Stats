@@ -210,58 +210,42 @@
 
  <style type="text/css">
  .chartBox{
-     width: 200px;
-     height: 200px;
+     width: 500px;
+     height: 500px;
      position: absolute;
      left: 60%;
-     top: 25%;
+     top: 15%;
+     
  }
  
  </style>
 
     <div class="chartBox">
-        <canvas id="chart" width="400" height="400"></canvas>
+        <canvas id="rushChart" width="500" height="500"></canvas>
+        <script src ="rushing_pieChart.js"></script>
+
     </div>
 
+
+    <style type="text/css">
+        .chartBox2{
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            left: 60%;
+            top: 80%;
+            background-color:beige;
+        }
+        
+        </style>
+       
+           <div class="chartBox2">
+               <canvas id="rushingAttempChart" width="500" height="500"></canvas>
+               <script src ="chiefs_rushing_attemptChart.js"></script>
+           </div>
+
 <script>
-    // setup block
-    const data = {
-        labels: ['Clyde Edwards-Helaire', "Le'Veon Bell", 'Patrick Mahomes', 'Darrel Williams', 'Tyreek Hill'],
-        datasets: [{
-            label: 'Chiefs 2020 Rushing Yard Leaders',
-            data: [803, 254, 308, 169, 123],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    };
 
-    // configuration block
-    const config = {
-    type: 'pie',
-    data,
-    options: {}
-    };
-
-    // render block
-const chart = new Chart(
-    document.getElementById('chart'),
-    config 
-);
 
 </script>
 
