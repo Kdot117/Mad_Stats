@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="chiefs_2020_scoring_data_style.css">
+    <link rel="stylesheet" href="chiefs_2020_weather_data.css">
     <title>Navigation</title>
     <script src=https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js></script>
     <script src=<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.min.js"></script>
@@ -34,7 +34,147 @@
     </ul>
 </nav>
 
+<section class="regularSeason">
+    <h2>Chiefs 2020 Season Weather</h2>
+    <table class="contentTable" width="600" align="center" >
+   
+       <tr>
+           <th>WEEK</th>
+           <th>DATE</th>
+           <th>OPPONENT</th>
+           <th>FORECAST</TH>
+       </tr>
+   
+       <tr>
+           <td>1</td>
+           <td>Sep 10, 2020</td>
+           <td>Houston Texans</td>
+           <td>58 F. Overcast</td>
+       </tr>
+   
+       <tr>
+           <td>2</td>
+           <td>Sep 20, 2020</td>
+           <td>Los Angeles Chargers</td>
+           <td>INDOOR DOME</td>
+       </tr>
+   
+       <tr>
+           <td>3</td>
+           <td>Sep 28, 2020</td>
+           <td>Baltimore Ravens</td>
+           <td>72 F. Clear</td>
+       </tr>
+   
+       <tr>
+           <td>4</td>
+           <td>Oct 5, 2020</td>
+           <td>New Englad Patriots</td>
+           <td>70 F. Clear</td>
+        </tr>
+   
+        <tr>
+           <td>5</td>
+           <td>Oct 11, 2020</td>
+           <td>Las Vegas Raiders</td>
+           <td>77 F. Clear</td>
+        </tr>
+   
+        <tr>
+           <td>6</td>
+           <td>Oct 19, 2020</td>
+           <td>Buffalo Bills</td>
+           <td>50 F. Overcast</td>
+        </tr>
+   
+        <tr>
+           <td>7</td>
+           <td>Oct 25, 2020</td>
+           <td>Denver Broncos</td>
+           <td>14 F. Foggy</td>
+        </tr>
+   
+        <tr>
+           <td>8</td>
+           <td>Nov 1, 2020</td>
+           <td>New York Jets</td>
+           <td>46 F. Clear</td>
+        </tr>
+   
+        <tr>
+           <td>9</td>
+           <td>Nov 8, 2020</td>
+           <td>Carolina Panthers</td>
+           <td>68 F. Partly Cloudy</td>
+        </tr>
+   
+        <tr>
+           <td>10</td>
+           <td>BYE WEEK</td>
+           <td>BYE WEEK</td>
+           <td>BYE WEEK</td>
+        </tr>
+   
+        <tr>
+           <td>11</td>
+           <td>Nov 22, 2020</td>
+           <td>Las Vegas Raiders</td>
+           <td>INDOOR DOME</td>
+        </tr>
+   
+        <tr>
+           <td>12</td>
+           <td>Nov 29, 2020</td>
+           <td>Tampa Bay Buccaneers</td>
+           <td>80 F. Clear</td>
+        </tr>
+   
+        <tr>
+           <td>13</td>
+           <td>Dec 6, 2020</td>
+           <td>Denver Broncos</td>
+           <td>38 F. Clear</td>
+        </tr>
+   
+        <tr>
+           <td>14</td>
+           <td>Dec 13, 2020</td>
+           <td>Miami Dolphins</td>
+           <td>80 F. Clear</td>
+        </tr>
+   
+        <tr>
+           <td>15</td>
+           <td>Dec 20, 2020</td>
+           <td>New Orleans Saints</td>
+           <td>INDOOR DOME</td>
+        </tr>
+
+        <tr>
+            <td>16</td>
+            <td>Dec 27, 2020</td>
+            <td>Atlanta Falcons</td>
+            <td>49 F. Clear</td>
+         </tr>
+   
+        <tr>
+           <td>17</td>
+           <td>Jan 3, 2020</td>
+           <td>Los Angeles Chargers</td>
+           <td>36 F. Mostly Cloudy</td>
+        </tr>
+   
+        <tr>
+           <td>SUPERBOWL</td>
+           <td>February 7, 2020</td>
+           <td>Tampa Bay Buccaneers</td>
+           <td>66 F. Clear</td>
+        </tr>
+   </table>
+   </section>
+
 </div>
+
 
 <div class="sidebox">
     <li>
@@ -48,17 +188,35 @@
         <a href="chiefs_2020_scoring_data.html">Scoring Data</a>
     </li>
     <li>
-        <a href="#">Weather Data</a>
+        <a href="chiefs_2020_weather_data.html">Weather Data</a>
     </li>
 </div>
 
-
-
-
-
-     
-
+<div class = "passingChart">
     
+
+    <style type="text/css">
+        .ChartBox{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 1100px;
+            bottom: 400px;
+            background-color: aquamarine;
+    
+        }
+
+        </style>
+
+           <div class="ChartBox">
+               <canvas id="WeatherlineChart" width="200" height="200"></canvas>
+               <script src = "chiefs_weather.js"></script>
+           </div>
+     </script>
+ 
+</div>
+
+ 
 </div>
 </body>
 </html>
