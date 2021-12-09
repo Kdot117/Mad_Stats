@@ -17,5 +17,8 @@ let pieChart = new Chart(CHART,{
             borderWidth: 1
         }]
     }
+
 });
+
+
 

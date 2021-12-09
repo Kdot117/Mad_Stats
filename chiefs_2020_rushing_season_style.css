@@ -50,7 +50,7 @@ nav{
 
 .sidebox {
         background-color: #5d4954;
-        width:300px;
+        width: 229px;
         height: 600px;
         align-items: center;
         justify-content: left;
@@ -58,10 +58,11 @@ nav{
         color: coral;
         list-style-type: none;
         border-radius: 15px;
-        border-style:double
+        border-style: double
     
         
 }
+
 .sidebox a{
     color: white;
 
@@ -93,9 +94,10 @@ table tr:nth-child(odd) td{
 }
 
 .rushingTable{
-    position: relative;
-    left:320px;
-    bottom: 600px;
+    display: flex;
+    position: absolute;
+    left: 250px;
+    bottom: 100px;
     color: white;
 }
 

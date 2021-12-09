@@ -57,16 +57,10 @@ nav{
         color: coral;
         list-style-type: none;
         border-radius: 15px;
-        border-style:double
-    
-        
+        border-style:double;
 }
 .sidebox a{
     color: white;
-    
-    
-
-
 }
 
 .sidebox li{
@@ -102,17 +96,7 @@ table tr:nth-child(odd) td{
     border-radius: 25px;
 }
 
-.box1 {
-    display: flex;
-    background-color: bisque;
-    width: 420px;
-    height: 400px;
-    margin: 10px;
-    position: relative;
-    left: 840px;
-    bottom: 1260px;
-    border-radius: 25px;
-}
+
 
 .box2 {
     display: flex;

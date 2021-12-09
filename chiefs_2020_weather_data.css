@@ -51,7 +51,7 @@ nav{
 .sidebox {
     
     background-color: #5d4954;
-    width: 270px;
+    width: 230px;
     height: 600px;
     align-items: center;
     justify-content: left;
@@ -72,8 +72,8 @@ font-family: 'Lato', sans-serif;
 }
 .regularSeason{
     position: absolute;
-    left: 400px;
-    bottom: 110px;
+    left: 250px;
+    bottom: 100px;
     color: white;
 }
 .pageHeading{
@@ -119,5 +119,6 @@ table tr:nth-child(odd) td{
     left: 285px;
     bottom: 600px;
     border-radius: 25px;
+
 
 }

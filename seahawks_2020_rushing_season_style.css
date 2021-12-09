@@ -45,6 +45,7 @@ nav{
     max-height: 300px;
     max-width: 800px;
     position: relative;
+    
     }
 
 .sidebox {
@@ -95,7 +96,7 @@ table tr:nth-child(odd) td{
     position: relative;
     left:320px;
     bottom: 600px;
-    color: white;
+    background-color:blue;
 }
 
     
