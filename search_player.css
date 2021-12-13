@@ -1,0 +1,71 @@
+body { background: #be1212;}
+
+    nav 
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        background-color: #5d4954;
+        font-family: 'Lato', sans-serif;}
+
+    .logo {
+        color: beige;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+    }
+    .nav-links li{
+        list-style: none;
+
+    }
+
+    .nav-links a{
+        color: beige;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        
+        
+        #myInput {
+          background-image: url('/css/searchicon.png');
+          background-position: 10px 10px;
+          background-repeat: no-repeat;
+          width: 100%;
+          font-size: 20px;
+          padding: 12px 20px 12px 40px;
+          border: 1px solid #ddd;
+          margin-bottom: 12px;
+        }
+        
+        #myTable {
+          border-collapse: collapse;
+          width: 100%;
+          border: 1px solid #ddd;
+          font-size: 18px;
+        }
+        
+        #myTable th, #myTable td {
+          text-align: left;
+          padding: 12px;
+        }
+        
+        #myTable tr {
+          border-bottom: 1px solid #ddd;
+        }
+        
+        #myTable tr.header, #myTable tr:hover {
+          background-color: #f1f1f1;
+        }
+
+        #myTable tr:nth-child(odd) td{
+            background-color: grey;
+        }
+    
