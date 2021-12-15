@@ -63,6 +63,9 @@ nav{
    background-size: cover;
    transition: 1s;
    display: inside;
+   background-position: center; 
+
+   
 
 }
 
@@ -80,6 +83,7 @@ nav{
     background-size: cover;
     transition: 0.5s;
     display:block;
+    background-position: center; 
 
  }
 
@@ -97,6 +101,7 @@ nav{
     background-size: cover;
     transition: 1s;
     display:block;
+    background-position: center; 
  }
 
  .box1:hover{

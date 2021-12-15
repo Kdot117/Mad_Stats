@@ -15,3 +15,4 @@ let lineChart = new Chart(CHARTS,{
         }]
     }
 });
+

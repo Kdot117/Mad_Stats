@@ -19,6 +19,11 @@ body{
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 70px 30px;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: white; 
+    
 }
 
 h1{
@@ -42,6 +47,7 @@ h1{
 .loginbox input[type="text"], input[type="password"]
 {
     border: none;
+    color: white;
     border-bottom: 1px solid #fff;
     background: transparent;
     outline: none;

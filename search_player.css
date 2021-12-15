@@ -1,4 +1,4 @@
-body { background: #be1212;}
+body { background:  #232427}
 
     nav 
     {
@@ -35,14 +35,15 @@ body { background: #be1212;}
         
         
         #myInput {
-          background-image: url('/css/searchicon.png');
+          background-image: url('/Users/kendrickizaguirre/Downloads/Mad_stat_home/searchicon.png');
           background-position: 10px 10px;
           background-repeat: no-repeat;
           width: 100%;
           font-size: 20px;
           padding: 12px 20px 12px 40px;
-          border: 1px solid #ddd;
+          border: 1px solid rgb(221, 221, 221);
           margin-bottom: 12px;
+          
         }
         
         #myTable {
@@ -50,11 +51,14 @@ body { background: #be1212;}
           width: 100%;
           border: 1px solid #ddd;
           font-size: 18px;
+          margin: 0px 0px 100px;
         }
         
         #myTable th, #myTable td {
           text-align: left;
           padding: 12px;
+          background-color: #3a6070;
+          color: #FFF;
         }
         
         #myTable tr {

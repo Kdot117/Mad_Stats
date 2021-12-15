@@ -1,10 +1,4 @@
-/* 
-{
-    margin: 0px;
-    padding: 0px;
 
-}
-*/
 
 body{
     background-image:url(chiefs_mahomes.webp);
@@ -57,7 +51,7 @@ nav{
    float: left;
    margin: 15px;
    box-sizing: border-box;
-   overflow: hidden;
+   
    border-radius: 15px;
    transition: 1s;
    background-image: url(cheifsmini.jpg);
@@ -72,7 +66,7 @@ nav{
     float: left;
     margin: 15px;
     box-sizing: border-box;
-    overflow: hidden;
+    
     border-radius: 15px;
     transition: 1s;
     background-image: url(cheifsmini.jpg);
@@ -83,11 +77,11 @@ nav{
     position: relative;
     width: calc(300px);
     height: calc(300px);
-    background: #000;
+    
     float: left;
     margin: 15px;
     box-sizing: border-box;
-    overflow: hidden;
+    
     border-radius: 15px;
     transition: 1s;
     background-image: url(cheifsmini.jpg);
